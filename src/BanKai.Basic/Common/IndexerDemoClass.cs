@@ -9,7 +9,10 @@
 
         public string this[string stringArgument]
         {
-            get { return "You are accessing indexer " + stringArgument; }
+            get
+            {
+                return "You are accessing indexer " + stringArgument;
+            }
         }
 
         public string this[int firstArgument, string secondArgument]
